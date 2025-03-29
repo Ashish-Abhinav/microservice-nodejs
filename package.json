@@ -1,0 +1,14 @@
+{
+    "name": "microservices-app",
+    "version": "1.0.0",
+    "description": "Patient and Appointment Microservices",
+    "main": "index.js",
+    "scripts": {
+      "start:patient": "node patient-service.js",
+      "start:appointment": "node appointment-service.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  
