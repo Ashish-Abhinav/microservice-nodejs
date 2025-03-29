@@ -11,4 +11,4 @@ COPY appointment-service.js .
 
 EXPOSE 3000 3001
 
-CMD ["node", "patient-service.js"]
+CMD ["node", "appointment-service.js"]
