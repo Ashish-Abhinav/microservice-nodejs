@@ -9,6 +9,6 @@ RUN npm install
 
 COPY patient-service.js .
 
-EXPOSE 3000 3001
+EXPOSE 3000
 
 CMD ["node", "patient-service.js"]
